@@ -1,0 +1,74 @@
+.reviews {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+  max-width: 900px;
+}
+
+.reviews h2 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.next_btn,
+.back_btn {
+  position: absolute;
+  top: 55%;
+  width: 45px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #fff;
+  z-index: 2;
+}
+
+.next_btn {
+  right: 0;
+}
+
+.back_btn {
+  left: 0;
+}
+
+/* Slider */
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 200%;
+  transition: transform 0.5s ease;
+}
+
+.slider ul li {
+  list-style: none;
+  min-width: 100%;
+  padding: 20px;
+}
+
+/* Slide card */
+.slide {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  border-radius: 10px;
+  color: #676767;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.user-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}

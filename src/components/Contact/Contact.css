@@ -1,0 +1,80 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #0c0909e5;
+}
+.contact-col{
+    flex-basis: 48%;
+    color: rgb(255, 255, 255);
+}
+
+.contact-col h2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col p{
+    margin-bottom: 30px;
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+
+}
+.info h2 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.info ul p {
+    margin: auto;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    line-height: 22px;
+}
+.hours p{
+    margin: auto;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 22px;
+
+}
+/*-----media query----*/
+@media(max-width: 700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}
